@@ -18,6 +18,9 @@ nav a{
 .logo{
   cursor: pointer;
 }
+button:hover{
+  color: rgb(0, 0, 0);
+}
 .btn{
   border: none;
   background-color: #30b868;
@@ -64,6 +67,7 @@ nav a{
   font-style: bold;
   line-height: 5px;
   padding: 16px 295px;
+  text-align: center;
 }
 .h11{
   color: #ffffff;
@@ -81,7 +85,7 @@ nav a{
   text-align: center;
 }
 .idea-box{
-  display: flex;
+  display: flex;  
   justify-content: center;
   padding: 24px;
   gap: 24px;
@@ -116,6 +120,7 @@ nav a{
   display: flex;
   justify-content: center;
   margin: -250px;
+  margin-bottom: 100px;
   padding: 120px;
   gap: 100px;
 }
@@ -138,4 +143,20 @@ nav a{
   list-style: none;
   line-height: 40px;
   margin-left: -40px;
+}
+.think{
+  text-align: center;
+  margin: 2px 120px;
+  border-radius: 12px;
+  padding: 80px 40px;
+  background-color: #f7f6f2;
+}
+.think h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.think button{
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
