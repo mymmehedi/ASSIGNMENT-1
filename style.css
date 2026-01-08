@@ -77,3 +77,39 @@ nav a{
   text-align: center;
   color: #ffffff;
 }
+.idea-container{
+  text-align: center;
+}
+.idea-box{
+  display: flex;
+  width: ;
+  justify-content: center;
+  padding: 24px;
+  gap: 24px;
+  margin: 300px 300px;
+}
+.heading{
+  margin-bottom: -250px;
+}
+.heading h1{
+  font-weight: bold;
+  font-size: 48px;
+  margin: 50px auto 16px;
+}
+.idea-box img{
+  background-color: #f95555;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+}
+.idea-card{
+  padding: 60px 24px;
+  box-shadow: 0 6px 50px #00000010;
+}
+.idea-card p{
+  color: #627382;
+}
+.idea-card h3{
+  font-size: 24px;
+  color: #001931;
+}
